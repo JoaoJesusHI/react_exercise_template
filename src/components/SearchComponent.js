@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react'
 import { Button,  Input, Grid, Message, Icon  } from 'semantic-ui-react'
 
 export default function SearchComponent() {
