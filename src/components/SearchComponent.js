@@ -1,4 +1,5 @@
 import { Button,  Input, Grid, Message, Icon  } from 'semantic-ui-react'
+import UsersList from './UsersList'
 
 export default function SearchComponent() {
 
@@ -6,6 +7,7 @@ export default function SearchComponent() {
   // 2. Users should be listed by the UsersList component
  
   return (
+    <>
       <Input fluid type='text' placeholder='Search...' action>
           <input />
           <Button type='submit'>Search</Button>
@@ -24,5 +26,6 @@ export default function SearchComponent() {
           </Message>
         </Grid.Column>
       </Grid>
+    </>
   )
 }
